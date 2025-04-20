@@ -34,7 +34,7 @@ public class AppController {
 
     @GetMapping("/msg")
     public String MyMessage() {
-        return "Hello Spring Boot!";
+        return "Hello SpringBoot!";
     }
 
     @GetMapping("/age/{age}")
